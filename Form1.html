@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body align="center">
+        <form method="POST" name="record">
+            <table border="0" align="center">
+                <tr>
+                    <th colspan="2"><u>Registration Form</u> </th>
+                </tr>
+                <tr>
+                    <td> <label>First Name:</label> </td>
+                    <td> <input type="text" name="fname" id="fname"/> </td>
+                </tr>
+                <tr>
+                    <td> <label>Last Name:</label> </td>
+                    <td> <input type="text" name="lname" id="lname"/> </td>
+                </tr> 
+                <tr>
+                    <td> Address:</td>
+                    <td> <textarea rows="2" cols="20"></textarea> </td>
+                </tr>
+                <tr>
+                    <td> Email:</td>
+                    <td> <input type="email" name="e1" id="e1" /> </td>
+                </tr>
+                <tr>
+                    <td> Password:</td>
+                    <td> <input type="password" name="p1" id="p1"/> </td>
+                </tr>
+                <tr>
+                    <td> Gender:</td>
+                    <td> <input type="radio" name="r1" id="Male"/> Male 
+                         <input type="radio" name="r1" id="Female"/> Female </td>
+                </tr>
+                <tr>
+                    <td> Hobby:</td>
+                    <td> <input type="checkbox" name="c1" checked/> Drawing
+                         <input type="checkbox" name="c2" /> Cricket 
+                         <input type="checkbox" name="c3" /> Badminton </td>
+                </tr>
+                <tr>
+                    <td> City:</td>
+                    <td> <select name="s1" >
+                        <option value="-- select city --"> -- select city -- </option>
+                        <option value="Vadodara"> Vadodara </option>
+                        <option value="Mumbai"> Mumbai </option>
+                        <option value="Karji"> Karji</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> Upload File:</td>
+                    <td> <input type="file" name="f1"/>  </td>
+                </tr>
+                <td> <input type="submit" name="submit" value="Submit" /> </td>
+                <td> <input type="button" name="cancel" value="Cancel" /> </td>
+            </table>
+        </form>
+    </body>
+</html>
